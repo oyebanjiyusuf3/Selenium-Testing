@@ -24,11 +24,11 @@ public class LoginTest {
 
         // Locate and fill Email
         WebElement emailField = driver.findElement(By.name("email"));
-        emailField.sendKeys("oyebanjiyusuf3@gmail.com");
+        emailField.sendKeys("oyebanji@gmail.com");
 
         // Locate and fill Password
         WebElement passwordField = driver.findElement(By.name("password"));
-        passwordField.sendKeys("12345678");
+        passwordField.sendKeys("notvalid");
 
         // Click Log In
         WebElement loginButton = driver.findElement(By.name("login"));
